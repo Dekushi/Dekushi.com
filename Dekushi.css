@@ -1,0 +1,59 @@
+
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    float: left;
+    padding-left: 1%;
+    width: 99%;
+    background-color: black;
+    color: white;
+}
+header h1{
+    text-align: center;
+    text-shadow: 1em 0.3em red;
+}
+header ul{
+    list-style-type: none;
+    margin:0;
+    width:100%;
+}
+header ul li{
+    width: 100px;
+    float: left;
+    list-style: none;
+    font-size: large;
+    overflow: hidden;
+}
+.txtHover:hover{
+    text-decoration-line: underline;
+    cursor: pointer; 
+    color: aqua;
+}
+main{
+    float: left;
+    padding-left: 1%;
+    width: 99%;
+    background-color: white;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.divMain{
+    float: left;
+    padding-left: 2%;
+    width: 98%;
+    height: 90%;
+    overflow-y: auto;
+    display: block;
+}
+footer{
+    float: left;
+    padding-left: 1%;
+    width: 99%;
+    background-color: black;
+    color: white;  
+    text-align: center;
+}
