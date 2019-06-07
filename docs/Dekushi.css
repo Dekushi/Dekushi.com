@@ -49,6 +49,9 @@ main{
     overflow-y: auto;
     display: block;
 }
+.divMain h3{
+    color: red;
+}
 footer{
     float: left;
     padding-left: 1%;
