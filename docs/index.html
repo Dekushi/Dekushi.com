@@ -10,17 +10,19 @@
     </head>
     <body>
         <header class="headerMain">
-            <h1>Dekushi</h1>
+            <h1>Dekushi卓球クラブ</h1>
+            <h3>出来るまで、訓練し、信念を持つ</h3>
+            <br>
             <ul>
                 <li class="txtHover" onclick="JsDekushi:TagClick(1)">レッスン</li>
                 <li class="txtHover" onclick="JsDekushi:TagClick(2)">設備情報</li>
                 <li class="txtHover" onclick="JsDekushi:TagClick(3)">お知らせ</li>
-                <li class="txtHover" onclick="JsDekushi:TagClick(4)">アクセス</li>
+                <li class="txtHover" onclick="JsDekushi:TagClick(4)">詳細</li>
             </ul>
         </header>
         <main>
             <div id="div1" style="display: block;">
-                <div id="divJieShao" class="divMain">
+                <div id="divJieShao" class="JieShao">
                     <h3>★個人レッスン（要予約）</h3>
                     <p>科学的で短時間にレベルアップ</p>
                     <p>多球使用により非常に効率的</p>
@@ -49,27 +51,36 @@
                 </div>
             </div>
             <div id="div2" style="display: none;">
-                <div id="divSheBei" class="divMain">
+                <div id="divSheBei" class="SheBei">
                     <h3>設備情報</h3>
                 </div>
             </div>
             <div id="div3" style="display: none;">
-                <div id="divXinWen" class="divMain">
+                <div id="divXinWen" class="XinWen">
                     <h3>お知らせ</h3>
                 </div>
             </div>
             <div id="div4" style="display: none;">
-                <div id="divDizhi" class="divMain">
-                    <h3>アクセス</h3>
-                    <div id="map" style="width:30%;height:200px;"></div>
+                <div id="divDizhi" class="DiZhi">
+                    <address>
+                            <h3>連絡</h3>
+                            <p>予約電話:080-4727-2196</p>
+                            <p>Line:QRコード表示</p>
+                            <div id="divQRcode">
+                                <img class="divimgQR" src="img/IMG_8778.JPG" alt="">
+                            </div>
+                            <p>代表:山崎<span style="padding-left: 5px;">傑<span style="padding-left: 5px;">（ヤマザキ<span style="padding-left: 5px;">ジェイ）</span></span></span></p>
+                            <br>
+                            <h3>アクセス</h3>
+                            <h4>場所：名細市民センターの後ろ</h4>
+                            <p>※住所はまだ登録されていないため、詳しくお電話ください</p>
+                            <div id="map" class="divmap"></div>
+                    </address>
                 </div>
             </div>
         </main>
         <footer>
-            <address>
-                <p>DeKuShi卓球クラブ</p>
-                <p style="display: none">代表：山崎<span style="padding-left: 5px;">傑<span style="padding-left: 5px;">（ヤマザキ<span style="padding-left: 5px;">ジェイ）</span></span></span></p>
-            </address>
+                <p>Dekushi卓球クラブ<span>営業時間：9:00~21:00</span></p>
         </footer>
     </body>
 </html>
