@@ -81,10 +81,12 @@ header ul li{
 }
 @media (max-width: 600px){
     .divimgQR{
-
+        width: auto;
+        height: auto;
     }
     .divmap{
-
+        width: auto;
+        height: auto;
     }
 }
 
